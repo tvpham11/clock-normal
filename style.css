@@ -1,0 +1,18 @@
+#box {
+  width: 700px;
+  height: 500px;
+  background-color: black;
+}
+
+#clock {
+  width: 100%;
+  line-height: 100%;
+  margin-top: 27%;
+  margin-bottom: 27%;
+  text-align: center;
+  float: left;
+  font-family: 'Lobster', cursive;
+  font-size: 4.5em;
+  background-color: black;
+  color: white;
+}
