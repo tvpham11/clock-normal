@@ -19,7 +19,7 @@ function currentTime () {
   box.style.backgroundColor = hexCode;
   clock.style.backgroundColor = hexCode;
 
-  var timer = setInterval(function () {
+  var timer = setTimeout(function () {
             currentTime()
         }, 1000);
 }
