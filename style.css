@@ -7,12 +7,12 @@
 #clock {
   width: 100%;
   line-height: 100%;
-  margin-top: 27%;
-  margin-bottom: 27%;
+  margin-top: 30%;
+  margin-bottom: 30%;
   text-align: center;
   float: left;
   font-family: 'Lobster', cursive;
-  font-size: 4.5em;
+  font-size: 4em;
   background-color: black;
   color: white;
 }
