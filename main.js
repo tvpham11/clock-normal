@@ -8,11 +8,12 @@ function checkTime (x) {
   return x;
 }
 
+var currentDay = new Date();
+var hours = checkTime(currentDay.getHours());
+var minutes = checkTime(currentDay.getMinutes());
+var seconds = checkTime(currentDay.getSeconds());
+
 function currentTime () {
-  var currentDay = new Date();
-  var hours = checkTime(currentDay.getHours());
-  var minutes = checkTime(currentDay.getMinutes());
-  var seconds = checkTime(currentDay.getSeconds());
   var hexCode = '#' + hours + minutes + seconds;
 
   clock.innerHTML = hexCode;
@@ -26,6 +27,12 @@ function currentTime () {
 
 function stopCurrentTime() {
   clearInterval(timer);
+}
+
+function switchDisplay () {
+  clock.innerHTML = hours + ":" + minutes + ":" + seconds;
+  box.style.backgroundColor = "black";
+  clock.style.backgroundColor = "black";
 }
 
 currentTime();
