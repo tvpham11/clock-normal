@@ -24,4 +24,8 @@ function currentTime () {
         }, 1000);
 }
 
+function stopCurrentTime() {
+  clearInterval(timer);
+}
+
 currentTime();
